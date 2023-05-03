@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+#define pi 3.14
+main()
+{
+int r;
+
+ clrscr();
+ printf("enter radius:");
+ scanf("%d",&r);
+ printf("Area Of Circle : %.2f",pi*r*r);
+ getch();
+}
